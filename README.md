@@ -76,18 +76,17 @@ This repository includes a [`.devcontainer`](.devcontainer) directory with confi
 
 ### Requirements
 
-- GitHub Codespaces **OR**:
-  - [Docker](https://www.docker.com/)
-  - [Visual Studio Code](https://code.visualstudio.com/)
+- GitHub Codespaces  
+  - [Docker](https://www.docker.com/)  
+  - [Visual Studio Code](https://code.visualstudio.com/)  
   - [Remote - Containers extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
 
 ### Steps (Local or Codespaces)
 
-1. **Open in Codespaces** (one-click setup on GitHub)  
+1. **Open in Codespaces** (click the button below to launch instantly on GitHub)  
    [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?template_repository=consuldemocracy/consuldemocracy)  
-   OR  
+   **OR**  
    **Reopen in Container** (from VS Code)
-
 
 2. The container will automatically set up:
    - Ruby, Node, PostgreSQL, Yarn, etc.
@@ -97,6 +96,7 @@ This repository includes a [`.devcontainer`](.devcontainer) directory with confi
 
    ```bash
    bin/rails s
+
    
 ## Configuration for production environments
 
