@@ -84,6 +84,7 @@ This repository includes a [`.devcontainer`](.devcontainer) directory with confi
 ### Steps (Local or Codespaces)
 
 1. **Open in Codespaces** (one-click setup on GitHub)  
+   [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?template_repository=consuldemocracy/consuldemocracy)  
    OR  
    **Reopen in Container** (from VS Code)
 
