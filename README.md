@@ -83,10 +83,11 @@ This repository includes a [`.devcontainer`](.devcontainer) directory with confi
 
 ### Steps (Local or Codespaces)
 
-1. **Open in Codespaces** 
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?template_repository=consuldemocracy/consuldemocracy)  
- OR  
-2. **Reopen in Container** (from VS Code)
+1. **Open in Codespaces** (one-click setup on GitHub)  
+   [![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://github.com/codespaces/new?template_repository=consuldemocracy/consuldemocracy)  
+   OR  
+   **Reopen in Container** (from VS Code)
+
 
 2. The container will automatically set up:
    - Ruby, Node, PostgreSQL, Yarn, etc.
