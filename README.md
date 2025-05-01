@@ -70,6 +70,32 @@ But for some actions like voting, you will need a verified user, the seeds file 
  **user:** verified@consul.dev
  **pass:** 12345678
 
+## 🚀 Development with GitHub Codespaces / DevContainer
+
+This repository includes a [`.devcontainer`](.devcontainer) directory with configuration for running CONSUL DEMOCRACY in GitHub Codespaces or locally using VS Code's Remote Containers.
+
+### Requirements
+
+- GitHub Codespaces **OR**:
+  - [Docker](https://www.docker.com/)
+  - [Visual Studio Code](https://code.visualstudio.com/)
+  - [Remote - Containers extension](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
+
+### Steps (Local or Codespaces)
+
+1. **Open in Codespaces** (one-click setup on GitHub)  
+   OR  
+   **Reopen in Container** (from VS Code)
+
+2. The container will automatically set up:
+   - Ruby, Node, PostgreSQL, Yarn, etc.
+   - Gems, NPM packages, and DB setup.
+
+3. Start the Rails server with:
+
+   ```bash
+   bin/rails s
+   
 ## Configuration for production environments
 
 See [installer](https://github.com/consuldemocracy/installer)

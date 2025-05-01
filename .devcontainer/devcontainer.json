@@ -1,0 +1,40 @@
+{
+    "name": "Your Project Development Environment",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "app",
+    "workspaceFolder": "/workspace",
+    
+    // Features to install in the container
+    "features": {
+      "ghcr.io/devcontainers/features/node:1": {
+        "version": "lts"
+      },
+      "ghcr.io/devcontainers/features/git:1": {},
+      "ghcr.io/devcontainers/features/github-cli:1": {}
+    },
+    
+    // Extensions to install in VS Code when using this container
+    "customizations": {
+      "vscode": {
+        "extensions": [
+          "dbaeumer.vscode-eslint",
+          "esbenp.prettier-vscode",
+          "ms-azuretools.vscode-docker",
+          "github.vscode-github-actions"
+        ],
+        "settings": {
+          "editor.formatOnSave": true,
+          "editor.codeActionsOnSave": {
+            "source.fixAll.eslint": true
+          }
+        }
+      }
+    },
+    
+    // Lifecycle scripts
+    "postCreateCommand": "sh .devcontainer/scripts/post-create.sh",
+    "postStartCommand": "npm install",
+    
+    // User settings
+    "remoteUser": "node"
+  }
